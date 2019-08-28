@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HappyZone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/itemStyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="icon" href="assets/icon.png">
+<link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+        <div class="top-nav-bar">
+                <a href="index.html"><div class="search-box">
+                       <img src="assets/logo.png" class="logo">
+                </div></a>
+                 <div class="menu-bar">
+                     <ul>
+                       <li><img src="https://static.thenounproject.com/png/1688469-200.png" height=32px></li>
+                       <li>
+                         <img src="https://static.thenounproject.com/png/194898-200.png" height=32px>
+                       </li>
+                       <a href="./cart.html" style="color: white;"><li style="position: relative;"><div style="position: absolute; background-color: red;border-radius: 50%;padding: 1px;" id="cart-count">0</div><img src="https://static.thenounproject.com/png/1832893-200.png" height=32px></li></a>
+                       <li>
+                         <button type="button" class="btn loginbtn" onclick="document.location.href='./loginpage.html';">
+                           <b> LOGIN</b>
+                         </button>
+                       </li>
+                     </ul>
+                   </div>
+         </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="./index.html#rakhi-section">RAKHI</a>
+                    </li>
+                    <li class="nav-item">
+                         <a class="nav-link" href="./index.html#magnet-section">MAGNETS</a>
+                     </li>
+                    <li class="nav-item">
+                         <a class="nav-link" href="./index.html#hamper-section">HAMPERS</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="./index.html#combos-section">COMBOS</a>
+                    </li>
+                          <li class="nav-item">
+                                <a class="nav-link" href="./index.html#greet-section">GREETING CARDS</a>
+                              </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+
+
+              <!-- Item Description -->
+
+              <div id="item-desc-name">
+                  <h1 id="item-head">Item Name</h1>
+              </div>
+
+
+              <!-- Item photos -->
+
+                <div id="item-desc-img">
+                    <div class="item-img" style="background-image: url('https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');"></div>
+                    <div class="item-img" style="background-image: url('https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');"></div>
+                    <div class="item-img" style="background-image: url('https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');"></div>
+                </div>
+
+                <!-- Item Description -->
+
+                <div id="item-desc-desc">
+                    <p id="item-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, expedita. Nisi delectus architecto dignissimos quis esse dolorem voluptatum vero quas id laudantium, repudiandae animi praesentium amet et magni numquam reprehenderit.</p>
+                </div>
+
+                <!-- Item price -->
+
+                <div id="item-desc-price">
+                    <span id="item-price">Price: </span>
+                </div>
+
+                <!-- add to cart button -->
+
+                <button id="add-to-cart-button">Add To Cart</button>
+
+                <section class="footer">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-md-4">
+                              <div class="payment">
+                                <h5>Payment method</h5>
+                                <img
+                                  src="https://www.demoup.com/blog/wp-content/uploads/2015/11/online_shop-_features_payment.png"
+                                  alt=""
+                                />
+                              </div>
+                            </div>
+                            <div class="col-md-4">
+                              <div class="social-media">
+                                    <h5 >Social Media</h5>
+                                <ul>
+                                  <li>
+                                     <a href="#">FACEBOOK</a>  
+                                  </li>
+                                  <li>
+                                    <a href="#">INSTAGRAM</a> 
+                                  </li>
+                                  <li>
+                                    <a href="#">TWITTER</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">YOUTUBE</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">OYE-HAPPY</a>
+                                  </li>
+                                  <li>
+                                    <a href="#">FLIPKART</a>
+                                  </li>
+                                   
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="col-md-4">
+                              <div class="discription">
+                                <h5>Developed by:</h5>
+                  <p>
+                      <li>Ashwin P M</li>
+                      <li>Ankush</li>
+                      <li>Ashika</li>
+                      <li>Basanogouda</li>
+                      <li>Rakshitha</li>
+                      <li>Shashank</li>
+                      <li>Krishna</li>
+                      <li>Divyashree</li>
+                      <li>Rishab</li>
+                  </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+
+
+                <footer style="text-align: center;">HappyZone &copy; 2019, Developed By Verzeo Intern Team</footer>
+
+                <script src="js/controller.js"></script>
+                <script>itemDesc();cartStart();cartCount();</script>
+
+    </body>
+</html>

@@ -1,0 +1,114 @@
+#cart-heading {
+    font-family: Akronim, sans-serif;
+    text-align: center;
+    padding: 2vh;
+}
+
+#cart-heading > h1 {
+    font-weight: bold;
+    color: green;
+    text-shadow: 2px 2px 5px greenyellow;
+    border-bottom: 3px solid green;
+    border-radius: 5vh;
+}
+
+
+#cart-items{
+    border: 1px solid black;
+    margin: 1vh;
+    border-radius: 3vh;
+}
+
+.cart-item {
+    width: 80vw;
+    height: 20vh;
+    background-color: rgba(127, 255, 212, 0.3);
+    margin: auto;
+    border-radius: 3vh;
+    border: 1px solid green;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.cart-item-img {
+    width: 20vh;
+    height: 20vh;
+    background-image: url('https://www.clickonf5.org/wp-content/uploads/2010/10/indian-rupee-symbol1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+    border-radius: 3vh;
+}
+
+.cart-item-name {
+    min-width: 25vw;
+    height: 20vh;
+    float: left;
+    padding: 3vh;
+    font-size: 7vh;
+}
+
+.cart-item-price {
+    height: 20vh;
+    width: 15vw;
+    float: right;
+    font-size: 7vh;
+    padding: 3vh;
+}
+
+
+#cart-total {
+    border: 1px solid black;
+    margin: 1vh;
+    border-radius: 3vh;
+    padding: 3vh;
+}
+
+#cart-total-price {
+    font-size: 7vh;
+    text-align: center;
+}
+
+#checkout-button {
+    padding: 1vh;
+    font-weight: bold;
+    background-color: rgba(255, 0, 0, 0.3);
+    border: none;
+    display: block;
+    margin: auto
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1000px) {
+    .cart-item-name {
+        font-size: 5vh;
+    }
+    .cart-item-price {
+        font-size: 5vh;
+    }
+    .cart-item {
+        width: 85vw;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .cart-item-name {
+        font-size: 4vh;
+    }
+    .cart-item-price {
+        font-size: 4vh;
+    }
+    .cart-item {
+        width: 95vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .cart-item-name {
+        font-size: 3vh;
+    }
+    .cart-item-price {
+        font-size: 3vh;
+    }
+}
